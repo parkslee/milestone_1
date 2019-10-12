@@ -1,0 +1,89 @@
+/*----------index---------*/
+
+
+/*-----transparent nav bar-------*/
+
+.bg-light {
+    background-color: rgb(255, 255, 255, 0.0) !important;
+}
+
+.jumbotron {
+    margin: 5% 5%;
+    box-shadow: 10px 10px rgb(95, 158, 160, 0.5);
+    background-color: rgb(255, 240, 245, 0.8);
+}
+
+
+.btn-primary {
+    color: #fafafa;
+    background-color: #866ecd;
+    border-color: #866ccd;
+}
+
+
+
+
+
+.social-links {
+    padding-bottom: 0px;
+}
+
+.social-links li a i {
+    width: 42px;
+    height: 42px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 21px;
+    line-height: 19px;
+    text-align: center;
+    color: #fafafa;
+    background: cadetblue;
+    transition: all 0.35s ease-in-out;
+    
+}
+
+.social-links li a i:hover {
+    background: #e84610;
+}
+
+#footer-details {
+    padding: 20px;
+    background-color: rgb(255, 255, 255, 0.2);
+    position: relative;
+    left: 0;
+    bottom: 0;
+}
+
+#footer-mobile {
+    padding: 20px;
+    background-color: rgb(255, 255, 255, 0.0);
+    width: 100%;
+    text-align: center;
+
+
+/*----contact page----*/
+
+
+
+
+
+
+/*---- About---*/
+
+
+
+/*----calender---*/
+
+
+
+
+/*----newsletter---*/
+
+
+
+
+  
+
+
+
+/*----updates---*/
