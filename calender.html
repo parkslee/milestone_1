@@ -12,14 +12,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css"
         type="text/css" />
     <link rel="stylesheet" href="assets\css\style.css">
-    <title>About</title>
+    <title>Calender</title>
 </head>
 
 <body class="calender-image">
 
     <header>
         <!----------------------------------------------------------------navigation-->
-        <!-------------------added border bottom for a dividing line under nav---------->
         <div class="container-fullwidth">
             <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
                 <a class="navbar-brand" href="./index.html">Maldon Community Preschool</a>
@@ -34,14 +33,14 @@
                             <a class="nav-link" href="./index.html">Home </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="./about.html">About<span
-                                    class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="./about.html">About</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="./Contact.html">Contact</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./calender.html">Term Calender</a>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="./calender.html">Term Calender<span
+                                    class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="./newsletter.html">Newsletter</a>
@@ -55,18 +54,113 @@
         </div>
     </header>
 
-    
+    <!----------Time line---------------->
+
+    <div class="container">
+        <div class="page-header">
+            <h1 id="timeline">Term Calender</h1>
+        </div>
+        <ul class="timeline">
+            <li>
+                <div class="timeline-badge"><i class="glyphicon glyphicon-check"></i></div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h4 class="timeline-title">October Half Term 2019</h4>
+                        <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> </small></p>
+                    </div>
+                    <div class="timeline-body">
+                        <p>21/10/2019	1/11/2019</p>
+                    </div>
+                </div>
+            </li>
+            <li class="timeline-inverted">
+                <div class="timeline-badge warning"><i class="glyphicon glyphicon-credit-card"></i></div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h4 class="timeline-title">Christmas Holidays 2019</h4>
+                    </div>
+                    <div class="timeline-body">
+                        <p>23/12/2019	3/1/2020</p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="timeline-badge danger"><i class="glyphicon glyphicon-credit-card"></i></div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h4 class="timeline-title">February Half Term 2020</h4>
+                    </div>
+                    <div class="timeline-body">
+                        <p>17/2/2020	28/2/2020</p>
+                    </div>
+                </div>
+            </li>
+            <li class="timeline-inverted">
+                    <div class="timeline-badge danger"><i class="glyphicon glyphicon-credit-card"></i></div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <h4 class="timeline-title">Easter Holidays 2020</h4>
+                        </div>
+                        <div class="timeline-body">
+                            <p>17/2/2020	28/2/2020</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                        <div class="timeline-badge danger"><i class="glyphicon glyphicon-credit-card"></i></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4 class="timeline-title">May Half Term 2020</h4>
+                            </div>
+                            <div class="timeline-body">
+                                <p>17/2/2020	28/2/2020</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="timeline-inverted">
+                            <div class="timeline-badge danger"><i class="glyphicon glyphicon-credit-card"></i></div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4 class="timeline-title">Summer Holidays 2020</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p>17/2/2020	28/2/2020</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                                <div class="timeline-badge danger"><i class="glyphicon glyphicon-credit-card"></i></div>
+                                <div class="timeline-panel">
+                                    <div class="timeline-heading">
+                                        <h4 class="timeline-title">October Half Term 2020</h4>
+                                    </div>
+                                    <div class="timeline-body">
+                                        <p>17/2/2020	28/2/2020</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="timeline-inverted">
+                                    <div class="timeline-badge danger"><i class="glyphicon glyphicon-credit-card"></i></div>
+                                    <div class="timeline-panel">
+                                        <div class="timeline-heading">
+                                            <h4 class="timeline-title">Christmas Holidays 2020</h4>
+                                        </div>
+                                        <div class="timeline-body">
+                                            <p>17/2/2020	28/2/2020</p>
+                                        </div>
+                                    </div>
+                                </li>
+        </ul>
+    </div>
 
 
 
 
-   <!---------------------------first footer only displayed on desktop view--------------->
-    <!------https://medium.com/wdstack/bootstrap-4-hidden-visible-dd969a4c5854 tutorial for display properties bootstrap---->
 
-<div class="container-fullwidth">
+    <!---->
     <footer class="d-none d-sm-block">
 
-        
+        <div class="container-fluid">
 
             <div id="footer-details" class="row">
                 <div class="col-sm-4">
@@ -91,7 +185,7 @@
                                 <span class="sr-only">Twitter</span>
                             </a>
                         </li>
-                      
+                        
                         <li class="list-inline-item">
                             <a target="_blank" href="#">
                                 <i class="fa fa-instagram" aria-hidden="true"></i>
@@ -113,8 +207,7 @@
         </div>
     </footer>
 
-    <!----second footer for mobile view (charity number hidden as to cluttered on mobile view)  -->
-    <!------https://medium.com/wdstack/bootstrap-4-hidden-visible-dd969a4c5854 tutorial for display properties bootstrap---->
+    <!----second footer for small screens-->
     <footer class="d-md-none">
 
 
