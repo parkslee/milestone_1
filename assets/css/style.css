@@ -1,4 +1,6 @@
-/*-------index---------*/
+
+/*---------------------------------------------------------index.html---------------*/
+
 .bgimage {
     background-image: url(../images/home-bg.jpg);
     background-size: cover;
@@ -18,7 +20,7 @@
     background-color: rgb(255, 240, 245, 0.8);
 }
 
-.row {
+.newsletter-update {
     margin: 20px;
 }
 
@@ -46,6 +48,9 @@
 .updates-index h1{
     text-align: center;
 }
+
+
+/*-------------------------------------------------------footer------------*/
 
 .social-links {
     padding-bottom: 0px;
@@ -86,7 +91,7 @@
     text-align: center;
 }
 
-/*----contact page----*/
+/*---------------------------------------------------------------contact page--------------------*/
 
 .contact-image {
     background-image: url(../images/contact-bg.jpg);
@@ -108,7 +113,7 @@ form{
     border-color: cadetblue;
 }
 
-/*---- About---*/
+/*------------------------------------------------------------------------- About--------------*/
 .about-image{
     background-image: url(../images/about-bg.jpg);
     background-size: cover;
@@ -123,12 +128,14 @@ form{
     
 }
 
-/*----calender---*/
+/*-------------------------------------------------------------------------calender---------------*/
 .calender-image{
     background-color: #866ccd;
 }
 
-/*----------------------time line------------*/
+/*------------------------------------------time line--------------------*/
+/*-------bootstrap time line - https://bootsnipp.com/snippets/OzQj-------*/
+
 .timeline {
     list-style: none;
     padding: 20px 0 20px;
@@ -313,7 +320,7 @@ form{
         }
 }
 
-/*----newsletter---*/
+/*----------------------------------------------------------------newsletter.html-------------*/
 .newsletter-image{
     background-image: url(../images/newsletter-bg.jpg);
     background-size: cover;
@@ -333,7 +340,7 @@ form{
 }
 
 
-/*----updates---*/
+/*------------------------------------------------------------------updates.html-----------*/
 .updates-image{
     background-image: url(../images/updates-bg.jpg);
     background-size: cover;
@@ -349,7 +356,10 @@ form{
 .update-nav {
     background-color: rgb(235, 232, 232) !important;
 }
-/*---- media---*/
+
+
+
+/*------------------------------------------------------------------------- media----------*/
 
 @media only screen and (min-width: 768px) {
     .bgimage {

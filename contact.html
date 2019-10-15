@@ -12,12 +12,14 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css"
         type="text/css" />
     <link rel="stylesheet" href="assets\css\style.css">
-    <title>About</title>
+    <title>Contact</title>
 </head>
 
-<body class="about-image">
-        <!----------------------------------------------------------------navigation-->
+<body class="contact-image">
+    
+<!-------------------------------------------------------------------------------navigation-->
     <header>
+        
         <div class="container-fullwidth">
             <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
                 <a class="navbar-brand" href="./index.html">Maldon Community Preschool</a>
@@ -28,14 +30,14 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav text-center ml-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="./index.html">Home </a>
+
+                            <a class="nav-link" href="./index.html">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="./about.html">About<span
-                                    class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="./about.html">About</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./contact.html">Contact</a>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="./contact.html">Contact<span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="./calender.html">Term Calender</a>
@@ -52,80 +54,45 @@
         </div>
     </header>
 
+    <div class="container-fluid">
 
-    <div class="about-content">
-        <div class="container">
-            <h4>We have fully-equipped pre-school premises in the heart of Maldon that can provide tailored care for
-                each
-                individual child. We also have a large outdoor area, with an adventure trail that our children love to
-                explore!</h4>
-            <br>
-            <h5>As you would expect all staff have the enhanced DBS police checks and have an excellent knowledge of
-                child
-                development. All staff are trained in paediatric first aid which is updated every 3 years. Staff have
-                also
-                attended safeguarding training.</h5>
-            <br>
-            <p>The story so far…
-                <br>
-                <br>
-                Maldon Community pre-school was set up by a group of Maldon Mothers in 1972 with the simple aim of
-                providing
-                a safe and stimulating place for their children to play and learn together. Since then the pre-school
-                has
-                grown and developed but our philosophy of providing an open and inclusive environment for children to
-                learn
-                through play remains fundamentally the same. Today the pre-school operates as a non profit making
-                charity.
-                We enjoy fundraising and are always looking for parents to help us with this.</p>
-
-
-            <div class="row">
-                <div class="col-sm-12 col-md-4">
-                    <p>
-                        We are a committee run pre-school that relies on parents being actively involved with their
-                        children’s day. You will be required to attend meetings regarding your child’s progress
-                        throughout their time at pre-school. We aim to work with parents to help enhance the children’s
-                        progress.
-                    </p>
-                </div>
-                <div class="col-sm-12 col-md-4">
-                    <p>Children are assigned a key person when settling in. This process will be very ‘child led’ to
-                        ensure a smooth transition.
-                        <br>
-                        Your childs key person will monitor your child’s progress and complete termly evaluations which
-                        will be shared with you.</p>
-
-                </div>
-                <div class="col-sm-12 col-md-4">
-                    <p>
-                        Putting your child’s name on our waiting list is simple! Just give us a call at the pre-school
-                        on 01621859114, email us or why not pop in and pick up a registration form today.
-                        <br>
-                        Availability is on a strict ‘first come, first served’ basis and places are subject to
-                        availability
-                    </p>
-                </div>
+        <form>
+                <div class="form-group">
+                        <label for="form-name">Name</label>
+                        <input type="name" class="form-control" id="form-name" placeholder="">
+                    </div>
+            <div class="form-group">
+                <label for="form-name">Email address</label>
+                <input type="email" class="form-control" id="form-name" placeholder="name@example.com">
+            </div>
+            <div class="form-group">
+                <label for="form-select">Select reason</label>
+                <select class="form-control" id="form-select">
+                    <option>General Enquiry</option>
+                    <option>Book a Visit</option>
+                    <option>Meeting Request</option>
+                    <option>4</option>
+                    <option>5</option>
+                </select>
             </div>
 
-            <!------------Embeded google map-------------->
-            <div class="Map">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2471.2500818795147!2d0.6814127151896718!3d51.728461079672066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8e126a0f09c29%3A0xe55033600089c419!2sMaldon%20Community%20Pre-school!5e0!3m2!1sen!2suk!4v1570910722496!5m2!1sen!2suk" width="380" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-                  </div>
-                   <p>
-                        Wantz Chase, Maldon CM9 5DN
-                        <br>
-                        01621 859114
-                  </p>
-        </div>
+            <div class="form-group">
+                <label for="form-text">Text</label>
+                <textarea class="form-control" id="form-text" rows="10"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary mb-2 contact-btn">Send</button>
+        </form>
+
     </div>
+<h5>Emergency contact</h5>
+<p>Phone: 01621 859114
+    <br>
+        Mobile: 07745 286891</p>
 
 
 
 
-
-
-<!---------------------------first footer only displayed on desktop view-------------------->
+    <!---------------------------first footer only displayed on desktop view-------------------->
     <!------https://medium.com/wdstack/bootstrap-4-hidden-visible-dd969a4c5854 tutorial for display properties bootstrap---->
     <div class="container-fullwidth">
             <footer class="d-none d-md-block">

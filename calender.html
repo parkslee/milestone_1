@@ -17,8 +17,9 @@
 
 <body class="calender-image">
 
+    <!-------------------------------------------------------------------------------navigation-->
     <header>
-        <!----------------------------------------------------------------navigation-->
+        
         <div class="container-fullwidth">
             <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
                 <a class="navbar-brand" href="./index.html">Maldon Community Preschool</a>
@@ -29,14 +30,13 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav text-center ml-auto">
                         <li class="nav-item">
-
                             <a class="nav-link" href="./index.html">Home </a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="./about.html">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./Contact.html">Contact</a>
+                            <a class="nav-link" href="./contact.html">Contact</a>
                         </li>
                         <li class="nav-item active">
                             <a class="nav-link" href="./calender.html">Term Calender<span
@@ -54,8 +54,8 @@
         </div>
     </header>
 
-    <!----------Time line---------------->
-
+    <!-----------------------------------------------Time line---------------->
+    <!-----bootstrap time line - https://bootsnipp.com/snippets/OzQj---------->
     <div class="container">
         <div class="page-header">
             <h1 id="timeline">Term Calender</h1>
@@ -157,97 +157,80 @@
 
 
 
-    <!---->
-    <footer class="d-none d-sm-block">
-
-        <div class="container-fluid">
-
-            <div id="footer-details" class="row">
-                <div class="col-sm-4">
-
-                    <p class="inline-block charity">
-                        © 2019. Maldon Community Pre-School. All rights reserved.
-                        Registered Charity Number: 1130470 </p>
+    <!---------------------------first footer only displayed on desktop view-------------------->
+    <!------https://medium.com/wdstack/bootstrap-4-hidden-visible-dd969a4c5854 tutorial for display properties bootstrap---->
+    <div class="container-fullwidth">
+            <footer class="d-none d-md-block">
+    
+    
+    
+                <div id="footer-details" class="row">
+                    <div class="col-sm-4">
+                        <p class="inline-block charity">
+                            © 2019. Maldon Community Pre-School. All rights reserved.
+                            Registered Charity Number: 1130470 </p>
+                    </div>
+    
+                    <div class="col-sm-4 ml-auto">
+                         <ul class="list-inline social-links">
+                            <li class="list-inline-item">
+                                <a target="_blank" href="https://facebook.com">
+                                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                                    <span class="sr-only">Facebook</span>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a target="_blank" href="https://twitter.com">
+                                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                                    <span class="sr-only">Twitter</span>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a target="_blank" href="https://instagram.com">
+                                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                                    <span class="sr-only">Instagram</span>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a target="_blank" href="https://youtube.com">
+                                    <i class="fa fa-youtube" aria-hidden="true"></i>
+                                    <span class="sr-only">YouTube</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-
-                <div class="col-sm-4 ml-auto">
-
-                    <ul class="list-inline social-links">
-                        <li class="list-inline-item">
-                            <a target="_blank" href="#">
-                                <i class="fa fa-facebook" aria-hidden="true"></i>
-                                <span class="sr-only">Facebook</span>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a target="_blank" href="#">
-                                <i class="fa fa-twitter" aria-hidden="true"></i>
-                                <span class="sr-only">Twitter</span>
-                            </a>
-                        </li>
-                        
-                        <li class="list-inline-item">
-                            <a target="_blank" href="#">
-                                <i class="fa fa-instagram" aria-hidden="true"></i>
-                                <span class="sr-only">Instagram</span>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a target="_blank" href="#">
-                                <i class="fa fa-youtube" aria-hidden="true"></i>
-                                <span class="sr-only">YouTube</span>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
+            </footer>
+        </div>
+    
+    
+    
+        <!----second footer for mobile view (charity number hidden as to cluttered on mobile view)  -->
+        <!------https://medium.com/wdstack/bootstrap-4-hidden-visible-dd969a4c5854 tutorial for display properties bootstrap---->
+        <footer class="d-md-none">
+            <div id="footer-mobile">
+                <ul class="list-inline social-links">
+                    <li class="list-inline-item">
+                        <a target="_blank" href="https://facebook.com">
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                            <span class="sr-only">Facebook</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="https://instagram.com">
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                            <span class="sr-only">Instagram</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="https://youtube.com">
+                            <i class="fa fa-youtube" aria-hidden="true"></i>
+                            <span class="sr-only">YouTube</span>
+                        </a>
+                    </li>
+                </ul>
             </div>
-
-
-
-        </div>
-    </footer>
-
-    <!----second footer for small screens-->
-    <footer class="d-md-none">
-
-
-
-        <div id="footer-mobile">
-
-
-
-
-
-            <ul class="list-inline social-links">
-                <li class="list-inline-item">
-                    <a target="_blank" href="#">
-                        <i class="fa fa-facebook" aria-hidden="true"></i>
-                        <span class="sr-only">Facebook</span>
-                    </a>
-                </li>
-
-
-
-                <li class="list-inline-item">
-                    <a target="_blank" href="#">
-                        <i class="fa fa-instagram" aria-hidden="true"></i>
-                        <span class="sr-only">Instagram</span>
-                    </a>
-                </li>
-                <li class="list-inline-item">
-                    <a target="_blank" href="#">
-                        <i class="fa fa-youtube" aria-hidden="true"></i>
-                        <span class="sr-only">YouTube</span>
-                    </a>
-                </li>
-            </ul>
-
-        </div>
-
-
-
-
-    </footer>
+        </footer>
 
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
