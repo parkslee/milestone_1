@@ -129,6 +129,7 @@ form{
 
 .about-content{
     text-align: center;
+        color: #423e3e;
     
 }
 
@@ -342,7 +343,7 @@ form{
 
   
 .newsletter-content{
-    color:#fafafa;
+        color: #423e3e;
     padding: 30px;
 }
 
@@ -350,6 +351,18 @@ form{
     text-align: center;
 }
 
+.newsletter-blocks{
+    background-color: #fafafa;
+    border-radius: 5%;
+    margin:1%;
+    
+}
+
+.newsletter-blocks2{
+    
+    background-color: #fafafa;
+    
+}
 
 /*------------------------------------------------------------------updates.html-----------*/
 .updates-image{
@@ -361,11 +374,22 @@ form{
 }
 
 .updates{
-    color: #fafafa;
+       color: #423e3e;
     
     padding: 30px;
 }
 
+.updates h1{
+    
+    text-align: center;
+}
+
+
+.update-blocks{
+    background-color: #fafafa;
+    border-radius: 5%;
+    margin:1%;
+}
 
 
 /*------------------------------------------------------------------------- media----------*/
