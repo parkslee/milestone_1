@@ -354,7 +354,7 @@ form{
 .newsletter-blocks{
     background-color: #fafafa;
     border-radius: 5%;
-    margin:1%;
+    margin:5px;
     
 }
 
@@ -388,7 +388,8 @@ form{
 .update-blocks{
     background-color: #fafafa;
     border-radius: 5%;
-    margin:1%;
+    margin:5px;
+    
 }
 
 
