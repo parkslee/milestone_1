@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+body{
+    font-family: 'Quicksand', sans-serif;
+}
 
 /*---------------------------------------------------------index.html---------------*/
 
@@ -6,6 +11,15 @@
     background-size: cover;
     height: 100vh;
     background-repeat: no-repeat;
+}
+
+.navbar-nav .nav-link {
+    margin-top: 5px;
+    
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fafafa;
 }
 
 .bg-light {
@@ -117,6 +131,11 @@ form{
     border-color: cadetblue;
 }
 
+.emergency-contact{
+    text-align: center;
+    color: #fafafa;
+}
+
 /*------------------------------------------------------------------------- About--------------*/
 .about-image{
     background-image: url(../images/about-bg.jpg);
@@ -131,6 +150,10 @@ form{
     text-align: center;
         color: #423e3e;
     
+}
+
+.about-nav{
+    color:black;
 }
 
 /*-------------------------------------------------------------------------calender---------------*/
@@ -353,16 +376,17 @@ form{
 
 .newsletter-blocks{
     background-color: #fafafa;
-    border-radius: 5%;
+    border-radius: 5px;
     margin:5px;
     
 }
 
-.newsletter-blocks2{
-    
-    background-color: #fafafa;
-    
+.newsletter-opener{
+    text-align: center;
+    padding:10px;
 }
+
+
 
 /*------------------------------------------------------------------updates.html-----------*/
 .updates-image{
@@ -411,5 +435,12 @@ form{
         height: 100%;
         
     }
+
+.bgimage {
+    background-image: url(../images/home-bg.jpg);
+    background-size: cover;
+    height: 100%;
+    background-repeat: no-repeat;
+}
 
 }
