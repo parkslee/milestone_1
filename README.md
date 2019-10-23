@@ -120,3 +120,29 @@ In addition, if it is not obvious, you should also describe how to run your code
 ### Acknowledgements
 
 - I received inspiration for this project from X
+- 
+background image index (art-color-colourful-207665) - https://www.pexels.com/photo/painting-and-drawing-tools-set-207665/
+
+abacus-addition-arithmetic-1019470 - https://www.pexels.com/photo/multicolored-abacus-photography-1019470/
+
+art-materials-color-colorful-2170 - https://www.pexels.com/photo/creative-desk-pens-school-2170/
+
+art-art-materials-color-236118 - https://www.pexels.com/photo/art-art-materials-color-colored-pens-236118/
+
+crayon-bg.jpeg - https://www.pexels.com/photo/assorted-color-crayons-2078147/
+
+newsletter-bg.jpeg https://www.pexels.com/photo/art-design-palette-colors-19679/
+
+bootstrap time line - https://bootsnipp.com/snippets/OzQj
+
+google mapembed - https://support.google.com/maps/answer/144361?co=GENIE.Platform%3DDesktop&hl=en
+
+https://stackoverflow.com/questions/10691021/how-to-insert-logo-with-the-title-of-a-html-page  - logo in title
+
+https://www.pexels.com/photo/pencils-in-clear-glass-container-1699772/ - glass pencil image
+
+chalk-background- https://www.pexels.com/photo/pile-of-colored-chalk-on-black-wooden-tabletop-226588/
+
+12345- https://www.pexels.com/photo/red-background-with-123456789-text-overlay-1329296/
+
+https://www.pexels.com/photo/art-art-materials-brush-color-207666/ - bg-image2.jpeg
