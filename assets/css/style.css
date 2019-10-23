@@ -7,7 +7,7 @@ body {
 /*---------------------------------------------------------index.html---------------*/
 
 .bgimage {
-    background-image: url(../images/home-bg.jpg);
+    background-image: url(../images/home-bg2.jpg);
     background-size: cover;
     height: 100vh;
     background-repeat: no-repeat;
@@ -20,7 +20,7 @@ body {
 
 .navbar-brand{
     font-weight: bold;
-    font-size:25px; 
+    font-size:20px; 
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -48,6 +48,12 @@ background-color: rgb(147, 124, 203) !important;
     color: #fafafa;
     background-color: #866ecd;
     border-color: #866ccd;
+}
+
+.btn-primary:hover {
+    
+    background-color: #ffc107;
+    border-color: #ffc107;
 }
 
 .newsletter {
@@ -462,7 +468,7 @@ form {
     }
 
     .bgimage {
-        background-image: url(../images/home-bg.jpg);
+        
         background-size: cover;
         height: 100%;
         background-repeat: no-repeat;
@@ -473,6 +479,13 @@ form {
     
 }
 
+.navbar-brand{
+    
+    font-size:30px; 
+}
+
 
 
 }
+
+
