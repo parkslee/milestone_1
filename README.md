@@ -1,7 +1,7 @@
 # Milestone_1 Maldon Community Preschool
 
 This is a website for a community run preschool. 
-The purpose of the site is to provide parents/caregivers with upto news and information of their childs preschool and increase online presence with the aim to 
+The purpose of the site is to provide parents/caregivers with up to date news and information of their childs preschool and increase the online presence with the aim to 
 increase enrollment rates.
 
  
@@ -14,68 +14,73 @@ In particular, as part of this section we recommend that you provide a list of U
 
 Owner = preschool
 
--As a user, i need an about page, so i can find core information about the preschool.
-<br>
--As a user , i need a navigation bar, so i can navigate the website easily.
-<br>
--As a user , i need a current newsletter section, so i can find update policy information
-<br>
--As a user , i want to book a meeting, so i can organise time with a tutor on my childs progress<br>
--As a user , i want to book a visit, so i can easily arrange a visit <br>
--as a user, i want to view images, so i can get a feel for the preschool prior to a visit <br>
+- As a user, i need an about page, so i can find core information about the preschool.
 
-as an owner , we need a recent updates, so we can update on latest charity fund raising and improvements to the preschool seperate to the newsletter<br>
-as an owner , we need a term calender , so that we can keep parents upto date with inset days and term times<br>
-as an owner, we need a contact section , so that parents can ask general enquires <br>
-as an owner, we need an about me page, so that we can show off our successes and give history to the preschool<br>
+- As a user , i need a navigation bar, so i can navigate the website easily.
 
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+- As a user , i need a current newsletter section, so i can find update policy information
+
+- As a user , i want to book a meeting, so i can organise time with a tutor on my childs progress
+- As a user , i want to book a visit, so i can easily arrange a visit 
+- as a user, i want to view images, so i can get a feel for the preschool prior to a visit 
+
+- as an owner , we need a recent updates, so we can update on latest charity fund raising and improvements to the preschool seperate to the newsletter
+- as an owner , we need a term calender , so that we can keep parents upto date with inset days and term times
+- as an owner, we need a contact section , so that parents can ask general enquires 
+- as an owner, we need an about me page, so that we can show off our successes and give history to the preschool
+
+I started to use Balsamic for my mockup of this project - (/assets/Mockup/mockup.bmpr)
 
 ## Features
 
 1. i will build a multi page website
 2. i will have the following features (requested by client)
-    about section
-    contact section
-    newsletter
-    term calender
-    recent updates
+
+    -about section
+    
+    -contact section
+    
+    -newsletter
+    
+    -term calender
+    
+    -recent updates
+    
     
 3. the following is agreed to be left to my decision 
-    navigation style 
-    layout style 
-    contact form - soley my descision 
-    term calender - timeline
-    social links - as the preschool does have a social media presence 
+
+    -navigation style 
+    
+    -layout style 
+    
+    -contact form
+    
+    -term calender - timeline
+    
+    -social links - as the preschool does have a social media presence 
 
 4. the following has been decided by myself and the client to be left out due to 
     safe guarding and parental permission in the time scale to complete project
-    image section 
 
-    this is where social links has added so that users if they wish can view previous images from social media that has been prearraged 
+    -image section 
+
+social links have been added so that users if they wish can view previous images of the preschool that have been pre approved
 
  
-### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
-
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
-
 ### Features Left to Implement
-- Another feature idea
+- contact form to be made funcional 
+
+### future features
+- archive of newsletters and updates
 
 ## Technologies Used
 
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
-bootstrap
-java
-html
-css
-fontawesome
-google fonts
+-bootstrap
+-fontawesome
+-google fonts
+-hover.css
 
 ## Testing
 
@@ -112,37 +117,59 @@ In addition, if it is not obvious, you should also describe how to run your code
 ## Credits
 
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+- The text for section index.html jumbotron was copied from [maldon community preschool website home page](https://www.maldoncommunitypreschool.co.uk)
+- The text for section about.html was copied from [maldon community preschool website about and home page](https://www.maldoncommunitypreschool.co.uk/about/)(https://www.maldoncommunitypreschool.co.uk/)
+- The text for section newsletter.html was copied from [maldon community preschool newsletter email](/assets/Spring Newsletter 2019[7].docx)
+- The text for section updates.html was copied from [maldon community preschool pta email](/assets/PTA NEWSLETTER FEB.docx)
+- The text for section calender.html was researched from [skyparksecure.com - google search](https://www.skyparksecure.com/blog/check-dates-for-uk-school-holidays/)
 
 ### Media
-- The photos used in this site were obtained from ...
+- all images in this project were acquired from www.pexels.com
 
 ### Acknowledgements
 
-- I received inspiration for this project from X
-- 
-background image index (art-color-colourful-207665) - https://www.pexels.com/photo/painting-and-drawing-tools-set-207665/
 
-abacus-addition-arithmetic-1019470 - https://www.pexels.com/photo/multicolored-abacus-photography-1019470/
 
-art-materials-color-colorful-2170 - https://www.pexels.com/photo/creative-desk-pens-school-2170/
 
-art-art-materials-color-236118 - https://www.pexels.com/photo/art-art-materials-color-colored-pens-236118/
+- at the start of the project i took inspiration from the disneylife.com website, as it is a friendly child themed 
+website and i was drawn towards the parallax effect. but as i started to lay the foundations of the project and thinking
+of the functionality and what was wanted from the owners and the users i realised that this just needed to be an informational easy to navigate site. 
 
-crayon-bg.jpeg - https://www.pexels.com/photo/assorted-color-crayons-2078147/
 
-newsletter-bg.jpeg https://www.pexels.com/photo/art-design-palette-colors-19679/
+contact-bg.jpg - contact.html -        https://www.pexels.com/photo/art-art-materials-color-colored-pens-236118/
 
-bootstrap time line - https://bootsnipp.com/snippets/OzQj
+crayon-bg.jpeg - updates.html -        https://www.pexels.com/photo/assorted-color-crayons-2078147/
 
-google mapembed - https://support.google.com/maps/answer/144361?co=GENIE.Platform%3DDesktop&hl=en
+newsletter-bg.jpeg - newsletter.html - https://www.pexels.com/photo/art-design-palette-colors-19679/
 
-https://stackoverflow.com/questions/10691021/how-to-insert-logo-with-the-title-of-a-html-page  - logo in title
+glass_pencil.jpg - calender.html -     https://www.pexels.com/photo/pencils-in-clear-glass-container-1699772/ - 
 
-https://www.pexels.com/photo/pencils-in-clear-glass-container-1699772/ - glass pencil image
+about-bg.jpg -   about.html -          https://www.pexels.com/photo/red-background-with-123456789-text-overlay-1329296/
 
-chalk-background- https://www.pexels.com/photo/pile-of-colored-chalk-on-black-wooden-tabletop-226588/
+bg-image2.jpeg - index.html -          https://www.pexels.com/photo/art-art-materials-brush-color-207666/ 
 
-12345- https://www.pexels.com/photo/red-background-with-123456789-text-overlay-1329296/
 
-https://www.pexels.com/photo/art-art-materials-brush-color-207666/ - bg-image2.jpeg
+- tutorial for display properties bootstrap - https://medium.com/wdstack/bootstrap-4-hidden-visible-dd969a4c5854 
+[d-none d-md-block] - used in footer to hide charity information and twitter social link to declutter mobile view.
+
+[d-none d-lg-block] - used for index.html in mobile view to hide newsletter and recent updates. 
+newsletter and recent updates will appear in desktop view 
+
+this class is also used in the navbar of index.html to display nav items for newsletter and recent updates in mobile view.
+
+- google mapembed - https://support.google.com/maps/answer/144361?co=GENIE.Platform%3DDesktop&hl=en.
+google map displayed on about.html 
+
+
+- bootstrap time line - https://bootsnipp.com/snippets/OzQj
+timeline used on calender.html . 
+
+    content has been edited to suit the need of the project 
+
+    styling has been changed to suit the project 
+
+    grey indicates - past term
+
+    green - next term
+
+    red- upcoming term
