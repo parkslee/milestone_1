@@ -144,7 +144,7 @@ newsletter-bg.jpeg - newsletter.html - https://www.pexels.com/photo/art-design-p
 
 glass_pencil.jpg - calender.html -     https://www.pexels.com/photo/pencils-in-clear-glass-container-1699772/ - 
 
-about-bg.jpg -   about.html -          https://www.pexels.com/photo/red-background-with-123456789-text-overlay-1329296/
+about-bg.jpg -   about.html -          https://www.pexels.com/photo/multi-colored-pencils-over-white-background-286559/
 
 bg-image2.jpeg - index.html -          https://www.pexels.com/photo/art-art-materials-brush-color-207666/ 
 

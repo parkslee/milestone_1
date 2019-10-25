@@ -9,7 +9,7 @@ body {
 .bgimage {
     background-image: url(../images/home-bg2.jpg);
     background-size: cover;
-    height: 100vh;
+    height: 100%;
     background-repeat: no-repeat;
 }
 
@@ -18,9 +18,9 @@ body {
 
 }
 
-.navbar-brand{
-    font-weight: bold;
-    font-size:20px; 
+.navbar-brand {
+    font-weight: normal;
+    font-size: 20px;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -28,7 +28,7 @@ body {
 }
 
 .bg-light-index {
-background-color: rgb(147, 124, 203) !important;
+    background-color: rgb(147, 124, 203) !important;
 }
 
 
@@ -51,7 +51,7 @@ background-color: rgb(147, 124, 203) !important;
 }
 
 .btn-primary:hover {
-    
+
     background-color: #ffc107;
     border-color: #ffc107;
 }
@@ -61,9 +61,9 @@ background-color: rgb(147, 124, 203) !important;
     position: relative;
     color: #423e3e;
     margin-bottom: 20px;
-
+    box-shadow: 10px 10px rgb(95, 158, 160, 0.5);
     padding: 30px;
-    border-radius: 5%;
+    border-radius: 10px;
 
 }
 
@@ -76,8 +76,9 @@ background-color: rgb(147, 124, 203) !important;
     background-color: rgb(95, 158, 160);
     color: #423e3e;
     margin-bottom: 20px;
-    border-radius: 5%;
+    border-radius: 10px;
     padding: 50px;
+    box-shadow: 10px 10px rgb(255, 255, 255, 0.5);
 }
 
 .updates-index h1 {
@@ -102,9 +103,7 @@ background-color: rgb(147, 124, 203) !important;
     color: #fafafa;
     background: cadetblue;
     transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
+
 }
 
 .social-links li a i:hover {
@@ -132,11 +131,12 @@ background-color: rgb(147, 124, 203) !important;
     background-image: url(../images/contact-bg.jpg);
     background-size: cover;
     height: 100%;
+
     background-repeat: no-repeat;
 }
 
-.bg-light-contact{
-background-color: rgb(199, 208, 217) !important;
+.bg-light-contact {
+    background-color: rgb(199, 208, 217) !important;
 }
 
 form {
@@ -175,13 +175,37 @@ form {
 
 }
 
-.about-header{
-    color: #fafafa;
+.about-header {
+    color: rgb(94, 94, 95);
 }
 
 .about-nav {
     color: black;
 }
+
+/*----------.row style adjusted to stop screen streching------*/
+
+.row {
+    margin-right: 0px;
+}
+
+.bg-light-about {
+    background-color: #fafafa !important;
+
+}
+
+/*-----styling added as bootstrap .nav-link class had to be changed for about page styling id added
+to <a> --------*/
+
+#about {
+    color: black;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+
+
+
 
 /*-------------------------------------------------------------------------calender---------------*/
 
@@ -408,6 +432,7 @@ form {
     background-color: #fafafa;
     border-radius: 5px;
     margin: 5px;
+    box-shadow: 7px 7px rgb(95, 158, 160, 0.5);
 
 }
 
@@ -444,6 +469,7 @@ form {
     background-color: #fafafa;
     border-radius: 5%;
     margin: 5px;
+    box-shadow: 7px 7px rgb(95, 158, 160, 0.5);
 
 }
 
@@ -463,29 +489,50 @@ form {
     }
 
     .contact-image {
+        background-size: cover;
+        height: 100vh;
         height: 100%;
-
+        background-repeat: no-repeat;
     }
 
     .bgimage {
-        
+
         background-size: cover;
         height: 100%;
         background-repeat: no-repeat;
     }
-    
+
+    .calender-image {
+        
+        background-size: cover;
+        height: 100vh;
+        height:100%;
+        background-repeat: no-repeat;
+        background-position: 55%;
+
+    }
+
+    .updates-image {
+        
+        background-size: cover;
+        height: 100vh;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-position: 50%;
+    }
+
+
+
     .list-inline {
-    padding-left: 70px;
-    
+        padding-left: 70px;
+
+    }
+
+    .navbar-brand {
+
+        font-size: 30px;
+    }
+
+
+
 }
-
-.navbar-brand{
-    
-    font-size:30px; 
-}
-
-
-
-}
-
-
