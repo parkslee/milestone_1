@@ -4,18 +4,10 @@ body {
     font-family: 'Quicksand', sans-serif;
 }
 
-/*---------------------------------------------------------index.html---------------*/
-
-.bgimage {
-    background-image: url(../images/home-bg2.jpg);
-    background-size: cover;
-    height: 100%;
-    background-repeat: no-repeat;
-}
+/*------------------------------------------------------------Navigation----------*/
 
 .navbar-nav .nav-link {
     margin-top: 5px;
-
 }
 
 .navbar-brand {
@@ -23,68 +15,19 @@ body {
     font-size: 20px;
 }
 
+.navbar-light .navbar-brand {
+    color: rgb(243, 242, 244);
+}
+
 .navbar-light .navbar-nav .nav-link {
     color: #fafafa;
 }
 
-.bg-light-index {
-    background-color: rgb(147, 124, 203) !important;
-}
-
+/*-------------------------------------!important statement used to override bootstrap defaults----*/
 
 .bg-light {
-    background-color: rgb(255, 255, 255, 0.0) !important;
+    background-color: rgb(199, 208, 217) !important;
 }
-
-.jumbotron {
-    margin: 5% 5%;
-    box-shadow: 10px 10px rgb(95, 158, 160, 0.5);
-    background-color: rgb(255, 240, 245, 0.8);
-}
-
-
-
-.btn-primary {
-    color: #fafafa;
-    background-color: #866ecd;
-    border-color: #866ccd;
-}
-
-.btn-primary:hover {
-
-    background-color: #ffc107;
-    border-color: #ffc107;
-}
-
-.newsletter {
-    background-color: #fafafa;
-    position: relative;
-    color: #423e3e;
-    margin-bottom: 20px;
-    box-shadow: 10px 10px rgb(95, 158, 160, 0.5);
-    padding: 30px;
-    border-radius: 10px;
-
-}
-
-.newsletter h1 {
-    padding-top: 5px;
-    text-align: center;
-}
-
-.updates-index {
-    background-color: rgb(95, 158, 160);
-    color: #423e3e;
-    margin-bottom: 20px;
-    border-radius: 10px;
-    padding: 50px;
-    box-shadow: 10px 10px rgb(255, 255, 255, 0.5);
-}
-
-.updates-index h1 {
-    text-align: center;
-}
-
 
 /*-------------------------------------------------------footer------------*/
 
@@ -112,18 +55,84 @@ body {
 
 #footer-details {
     padding: 20px;
-    background-color: rgb(255, 255, 255, 0.0);
+    background-color: #fffbf8;
     position: relative;
     left: 0;
-    bottom: 0;
+    bottom: 5px;
+    border-radius: 10px;
 }
 
+/*----------------additional styling for footer in mobile view only social links displayed to de-clutter view---*/
 #footer-mobile {
-    padding: 20px;
+    padding: 60px;
     background-color: rgb(255, 255, 255, 0.0);
     width: 100%;
     text-align: center;
 }
+
+
+
+
+/*------------------------------------------------------------------index.html---------------*/
+
+.bgimage {
+    background-image: url(../images/home-bg2.jpg);
+    background-size: cover;
+    height: 100%;
+
+    background-repeat: no-repeat;
+}
+
+.jumbotron {
+    margin: 5% 5%;
+    box-shadow: 10px 10px rgb(95, 158, 160, 0.5);
+    background-color: rgb(255, 240, 245, 0.8);
+}
+
+.btn-primary {
+    color: #fafafa;
+    background-color: #866ecd;
+    border-color: #866ccd;
+}
+
+.btn-primary:hover {
+
+    background-color: #ffc107;
+    border-color: #ffc107;
+}
+
+/*-------------------------------Newsletter on index.html (only displayed on larger screen sizes)-----------*/
+
+.newsletter {
+    background-color: #fafafa;
+    position: relative;
+    color: #423e3e;
+    margin-bottom: 20px;
+    box-shadow: 10px 10px rgb(95, 158, 160, 0.5);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.newsletter h1 {
+    padding-top: 5px;
+    text-align: center;
+}
+
+/*-----------------------------updates on index.html (only displayed on larger screen sizes)----*/
+
+.updates-index {
+    background-color: rgb(95, 158, 160);
+    color: #423e3e;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding: 50px;
+    box-shadow: 10px 10px rgb(255, 255, 255, 0.5);
+}
+
+.updates-index h1 {
+    text-align: center;
+}
+
 
 /*---------------------------------------------------------------contact page--------------------*/
 
@@ -155,6 +164,8 @@ form {
 .emergency-contact {
     text-align: center;
     color: #000100;
+    margin-top: 10px;
+
 }
 
 /*------------------------------------------------------------------------- About--------------*/
@@ -175,35 +186,12 @@ form {
 
 }
 
-.about-header {
-    color: rgb(94, 94, 95);
-}
-
-.about-nav {
-    color: black;
-}
 
 /*----------.row style adjusted to stop screen streching------*/
 
 .row {
     margin-right: 0px;
 }
-
-.bg-light-about {
-    background-color: #fafafa !important;
-
-}
-
-/*-----styling added as bootstrap .nav-link class had to be changed for about page styling id added
-to <a> --------*/
-
-#about {
-    color: black;
-    padding: 8px;
-    margin-top: 5px;
-}
-
-
 
 
 
@@ -274,6 +262,9 @@ to <a> --------*/
     position: relative;
     -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
     box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+
+    /*-----------border-radius added to bring inline with the overall style of the website----*/
+    border-radius: 10px;
 }
 
 .timeline>li>.timeline-panel:before {
@@ -473,66 +464,87 @@ to <a> --------*/
 
 }
 
+.updates-content {
+    margin-bottom: 20px;
+}
+
+
+
 
 /*------------------------------------------------------------------------- media----------*/
 
 @media only screen and (min-width: 768px) {
-
-
-    .footer-details {
-        position: absolute;
-    }
-
-    /*---contact page----*/
+    /*---contact.html----*/
     form {
         margin: 50px;
     }
 
     .contact-image {
         background-size: cover;
-        height: 100vh;
         height: 100%;
         background-repeat: no-repeat;
     }
+    /*---index.html----*/
+    .bgimage {
+        background-size: cover;
+        height: 100%;
+        background-repeat: no-repeat;
+    }
+    /*---calender.html----*/
+    .calender-image {
+        background-size: cover;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-position: 55%;
+    }
+    /*---updates.html----*/
+    .updates-image {
+        background-size: cover;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-position: 50%;
+    }
+
+    .list-inline {
+        padding-left: 70px;
+    }
+
+    .navbar-brand {
+        font-size: 30px;
+    }
+
+}
+
+/*-------------the following are fixes for ipad pros and larger desktop displays----*/
+
+@media only screen and (min-height: 1024px) {
+
 
     .bgimage {
-
         background-size: cover;
         height: 100%;
         background-repeat: no-repeat;
     }
 
     .calender-image {
-        
         background-size: cover;
         height: 100vh;
-        height:100%;
         background-repeat: no-repeat;
         background-position: 55%;
-
     }
 
     .updates-image {
-        
         background-size: cover;
         height: 100vh;
-        height: 100%;
         background-repeat: no-repeat;
         background-position: 50%;
     }
 
-
-
-    .list-inline {
-        padding-left: 70px;
-
+    .contact-image {
+        background-size: cover;
+        height: 100vh;
+        background-repeat: no-repeat;
     }
-
-    .navbar-brand {
-
-        font-size: 30px;
-    }
-
 
 
 }

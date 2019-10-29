@@ -80,7 +80,7 @@ In this section, you should mention all of the languages, frameworks, libraries,
 -bootstrap
 -fontawesome
 -google fonts
--hover.css
+
 
 ## Testing
 
